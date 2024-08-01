@@ -22,9 +22,19 @@ body{
     text-align: center;
     box-shadow: 20px 20px 25px black;
 }
+.hide{
+    display: none;
+}
+
+h2{
+    color: aqua;
+    font-size: 3rem;
+    /* padding-top: 20px; */
+}
+
 h1{
-    font-size: 8vh;
-    padding: 10px 20px;
+    font-size: 7vh;
+    padding: 5px;
     /* font-family: 'Courier New'; */
     font-weight: bold;
 }
@@ -59,9 +69,13 @@ h1{
     box-shadow: 2px 5px 2px black;
 }
 
-.reset-btn{
-    margin: 20px;
-    padding: 10px 15px;
+button:hover{
+    cursor: pointer;
+}
+
+.new-game , .reset-btn{
+    margin: 15px;
+    padding: 10px;
     border-radius: 10px;
     border: none;
     font-weight: bold;
